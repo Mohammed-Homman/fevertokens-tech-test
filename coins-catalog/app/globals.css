@@ -217,7 +217,6 @@ a:hover {
 .bitcoin-spinner {
   width: 50px;
   height: 50px;
-  background-image: url('/path/to/bitcoin-logo.png');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
