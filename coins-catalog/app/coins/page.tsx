@@ -15,10 +15,9 @@ export default function Page() {
           <FaCoins className="text-yellow-500" /> 
           <span>CryptoCatalog</span> 
         </Link>
-        
-        {/* Updated Time Display */}
+      
         <div className="flex items-center space-x-2 text-gray-800 bg-gray-200 px-3 py-1 rounded-full">
-          <FaClock className="text-yellow-500" /> {/* Add a clock icon */}
+          <FaClock className="text-yellow-500" /> 
           <span className="font-medium text-lg">
             {new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
           </span>
